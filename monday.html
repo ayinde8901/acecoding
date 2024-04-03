@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>MELODIA ACADEMY</h2>
+    <form action="raek/index.html">
+        <label for="">firstname</label >
+        <input type="text" id="username" placeholder="firstname">
+        <br><br>
+        <label for="">lastname</label>
+        <input type="text" placeholder="lastanme">
+        <br><br>
+        <label for="">Email address</label>
+        <input type="email" name="email address" id="" placeholder="email address">
+        <br><br>
+        <label for="">Address</label>
+        <input type="address" placeholder="home Address">
+        <br><br>
+        <label for="">select courses</label>
+        <select name="courses" id="courses">
+            <option value="opt1">html</option>
+            <option value="opt2">css</option>
+            <option value="opt3">java-script</option>
+            <option value="opt4">boostrap</option>
+            <option value="opt5">github</option>
+            <option value="opt6">React-js</option>
+            <option value="opt7">node-js</option>
+            <option value="opt8">php</option>
+            <option value="opt9">python</option>
+            <option value="opt10">mongo-db</option>
+            <option value="opt11">c++</option>
+        </select>
+        <br><br>
+        <label for="">Age</label>
+        <input type="number" name="age" value="30">
+        <br><br>
+        <label for="">Choose gender</label>
+        <select name="" id="">
+            <option value="opt1">male</option>
+            <option value="opt2">female</option>
+            <option value="opt3">other</option>
+        </select>
+        <br><br>
+        <label for="">country</label>
+        <select name="country" id="country">
+            <option value="c1">nigeria</option>
+            <option value="c1">ghana</option>
+            <option value="c1">algeria</option>
+            <option value="c1">Togo</option>
+            <option value="c1">mali</option>
+            <option value="c1">cape-verde</option>
+            <option value="c1">guinea</option>
+            <option value="c1">canada</option>
+            <option value="c1">united state</option>
+            <option value="c1">congo</option>
+            <option value="c1">senegal</option>
+            <option value="c1">egypt</option>
+            <option value="c1">libya</option>
+            <option value="c1">Australia</option>
+            <option value="c1">united kingdom</option>
+            <option value="c1">france</option>
+            <option value="c1">portugal</option>
+            <option value="c1">Burkinafaso</option>
+            <option value="c1">benin-republic</option>
+            <option value="c1">japan</option>
+            <option value="c1">finland</option>
+            <option value="c1">netherland</option>
+            <option value="c1">qatar</option>
+        </select>
+        <br><br>
+        <select>
+            <option disabled selected>--Select State--</option>
+            <option value="Abia">Abia</option>
+            <option value="Adamawa">Adamawa</option>
+            <option value="Akwa Ibom">Akwa Ibom</option>
+            <option value="Anambra">Anambra</option>
+            <option value="Bauchi">Bauchi</option>
+            <option value="Bayelsa">Bayelsa</option>
+            <option value="Benue">Benue</option>
+            <option value="Borno">Borno</option>
+            <option value="Cross River">Cross River</option>
+            <option value="Delta">Delta</option>
+            <option value="Ebonyi">Ebonyi</option>
+            <option value="Edo">Edo</option>
+            <option value="Ekiti">Ekiti</option>
+            <option value="Enugu">Enugu</option>
+            <option value="FCT">Federal Capital Territory</option>
+            <option value="Gombe">Gombe</option>
+            <option value="Imo">Imo</option>
+            <option value="Jigawa">Jigawa</option>
+            <option value="Kaduna">Kaduna</option>
+            <option value="Kano">Kano</option>
+            <option value="Katsina">Katsina</option>
+            <option value="Kebbi">Kebbi</option>
+            <option value="Kogi">Kogi</option>
+            <option value="Kwara">Kwara</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Nasarawa">Nasarawa</option>
+            <option value="Niger">Niger</option>
+            <option value="Ogun">Ogun</option>
+            <option value="Ondo">Ondo</option>
+            <option value="Osun">Osun</option>
+            <option value="Oyo">Oyo</option>
+            <option value="Plateau">Plateau</option>
+            <option value="Rivers">Rivers</option>
+            <option value="Sokoto">Sokoto</option>
+            <option value="Taraba">Taraba</option>
+            <option value="Yobe">Yobe</option>
+            <option value="Zamfara">Zamfara</option>
+        </select>
+        <br><br>
+        <label for="">your bio</label>
+        <textarea name="bio" id="bio" placeholder="your bio.."  rows="10" cols="50"></textarea>
+        <br><br>
+        <label for="">password</label>
+        <input type="password" id="pass" placeholder="password">
+        <br><br>
+        <button onclick="login()">submit</button>
+
+        
+
+
+
+
+
+    </form>
+    <script src="sub.js"></script>
+    
+</body>
+<style>
+    body{
+        background-color: #00394F;
+        color: black;
+        animation: oke;
+        animation-duration: 2s;
+        animation-iteration-count: 3;
+        position: relative;
+        animation-direction: reverse;
+        
+    }
+    @keyframes oke{
+        from{background-color: #17A2B8;}
+        to{background-color: #FFFFFF;}
+    }
+    h2{
+        text-align: center;
+    }
+    label{
+        display: block;
+        margin-left: 90px;
+    }
+    input{
+        width: 1200px;
+        height: 40px;
+        margin-left: 90px;
+        border: none ;
+        border-radius: 4px;
+        
+    }
+    input:hover{
+        background-color: blanchedalmond;
+    }
+    select{
+        width: 1200px;
+        margin-left: 90px;
+        border: none;
+        height: 40px;
+        border-radius: 4px;
+     
+    }
+    select:hover{
+        background-color: bisque;
+
+    }
+    textarea{
+        width: 1200px;
+        margin-left: 90px;
+        border: none;
+        border-radius: 4px;
+    }
+    textarea:hover{
+        background-color: bisque;
+    }
+    button{
+        width: 800px;
+        margin-left: 250px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        
+    }
+    button:hover{
+        background-color: bisque;
+    }
+</style>
+</html>
